@@ -1,0 +1,36 @@
+#DIFFERENCE BETWEEN LARGEST AND SMALLEST NUMBER IN GIVEN LIST
+n=int(input("Enter how numbers your want "))
+num=int(input("Enter any number ")) 
+largest=num
+small=num
+i=1
+while(i<n):
+    num=int(input("Enter any number "))
+    if(num>largest):
+        largest=num 
+    i=i+1
+print("The largest number is " , largest)
+small=num
+i=1
+while(i<n):
+    num=int(input("Enter any number "))
+    if(num<small):
+        small=num 
+    i=i+1
+print("The smallest number is " , small)
+print('Difference:',largest-small)
+output:
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/fyf.py ==
+Enter how numbers your want 5
+Enter any number 12
+Enter any number 3
+Enter any number 6
+Enter any number 10
+Enter any number 34
+The largest number is  34
+Enter any number 3
+Enter any number 6
+Enter any number 10
+Enter any number 34
+The smallest number is  3
+Difference: 31
