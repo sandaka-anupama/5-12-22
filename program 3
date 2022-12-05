@@ -1,0 +1,17 @@
+#TO FIND SUM OF THE DIGITS IN A NUMBER
+def sum(n):
+    sum=0
+    for digit in str(n):
+        sum=sum+int(digit)
+    return sum
+n=int(input())
+print(sum(n))
+
+OUTPUT:
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/fyf.py ==
+23455
+19
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/fyf.py ==
+345
+12
